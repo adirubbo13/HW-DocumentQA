@@ -1,3 +1,8 @@
 streamlit
 openai
 pdfplumber
+bs4
+requests
+anthropic
+mistralai
+
