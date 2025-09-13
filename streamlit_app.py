@@ -6,5 +6,7 @@ st.markdown(
 st.text('Select a Homework in the Sidebar. Homework is a collection of assignments from IST: 688 - Building Human Centered AI Applications') 
 hw1_page = st.Page("HWs/HW1.py", title = "Homework 1") 
 hw2_page = st.Page("HWs/HW2.py", title = "Homework 2") 
-pg = st.navigation([hw2_page,hw1_page]) 
+hw3_page = st.Page("HWs/HW3.py", title = "Homework 3") 
+
+pg = st.navigation([hw3_page,hw2_page,hw1_page]) 
 pg.run()

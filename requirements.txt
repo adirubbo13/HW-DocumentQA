@@ -6,4 +6,5 @@ requests
 anthropic
 mistralai
 beautifulsoup4
+tiktoken
 
