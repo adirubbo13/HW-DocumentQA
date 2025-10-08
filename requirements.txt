@@ -9,5 +9,6 @@ beautifulsoup4
 tiktoken
 chromadb
 pysqlite3-binary
+pandas
 
 
