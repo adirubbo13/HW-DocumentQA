@@ -27,7 +27,7 @@ def load_news_csv(path):
     df["Document"] = df["Document"].fillna("")
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     return df
-df = load_news_csv("/workspaces/HW-DocumentQA/hw7files/Example_news_info_for_testing.csv")
+df = load_news_csv("hw7files/Example_news_info_for_testing.csv")
 
 # Scoring function, using key legal keywords
 def get_top_ranked_news(df, top_k=5):
